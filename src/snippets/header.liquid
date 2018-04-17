@@ -1,0 +1,29 @@
+<!doctype html>
+<!--[if IE 9]> <html class="ie9 no-js supports-no-cookies" lang="{{ shop.locale }}"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--> <html class="no-js supports-no-cookies has-dom-loaded" lang="{{ shop.locale }}"> <!--<![endif]-->
+
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff">
+        <link rel="canonical" href="{{ canonical_url }}">
+
+        <link rel="apple-touch-icon" sizes="180x180" href="{{ 'apple-touch-icon.png' | asset_url }}">
+        <link rel="icon" type="image/png" sizes="32x32" href="{{ 'favicon-32x32.png' | asset_url }}">
+        <link rel="icon" type="image/png" sizes="16x16" href="{{ 'favicon-16x16.png' | asset_url }}">
+        <link rel="manifest" href="{{ 'manifest.json' | asset_url }}">
+        <link rel="mask-icon" href="{{ 'safari-pinned-tab.svg' | asset_url }}" color="#000000">
+        <meta name="msapplication-TileColor" content="#ffffff">
+
+        <title>{{ seo_title }}</title>
+
+        {% if page_description %}
+        <meta name="description" content="{{ page_description | escape }}">
+        {% endif %}
+
+        <link rel="stylesheet" href="{{ 'main.css' | asset_url }}">
+    </head>
+    <body id="{{ page_title | handle }}" class="template-{{ template.name | handle }}">
+
+        <div class="u-none">{% include 'sprite' %}</div>

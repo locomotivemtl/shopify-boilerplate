@@ -1,0 +1,7 @@
+development:
+  password: 
+  theme_id: ""
+  store: .myshopify.com
+  directory: dist
+  ignore_files:
+  - "*.html"
