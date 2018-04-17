@@ -1,7 +1,7 @@
 import gulp from 'gulp';
 import liquify from 'gulp-liquify';
 import rename from 'gulp-rename';
-import paths from '../mconfig.js';
+import paths from '../mconfig.json';
 import error from './error.js';
 import locales from '../src/locales/en.default.json';
 
