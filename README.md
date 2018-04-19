@@ -11,10 +11,8 @@ Until we make a gulp task for it, install [Shopify Theme Kit] to automatically u
 
 ## Usage
 ```sh
-# init your project
-git clone https://github.com/locomotivemtl/shopify-boilerplate my-project
-cd my-project
-mbp init
+# in an empty directory, init your project
+mbp init locomotivemtl/shopify-boilerplate
 
 # default watch task
 gulp
