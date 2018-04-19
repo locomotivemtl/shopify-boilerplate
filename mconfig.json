@@ -8,6 +8,7 @@
     "main": "main"
   },
   "scripts": {
+    "vendors": "src/scripts/vendors/",
     "src": "./src/scripts/",
     "dest": "./dist/assets/",
     "main": "main"
