@@ -8,10 +8,13 @@
     "main": "main"
   },
   "scripts": {
-    "vendors": "src/scripts/vendors/",
     "src": "./src/scripts/",
     "dest": "./dist/assets/",
-    "main": "main"
+    "main": "main",
+    "vendors": {
+      "src": "./src/scripts/vendors/",
+      "main": "vendors"
+    }
   },
   "svgs": {
     "src": "./src/assets/sprite/",
