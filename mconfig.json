@@ -23,5 +23,11 @@
   "views": {
     "src": "./src/templates/",
     "partials": "./src/snippets/"
+  },
+  "modules": {
+    "build": "gulp",
+    "style": "sass",
+    "script": "js",
+    "view": "liquid"
   }
 }
