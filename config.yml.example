@@ -1,0 +1,9 @@
+development:
+    password: <password>
+    theme_id: "<theme id>"
+    store: <store.myshopify.com>
+    directory: src
+    ignore_files:
+        - src/styles
+        - src/scripts
+        - src/sprites
